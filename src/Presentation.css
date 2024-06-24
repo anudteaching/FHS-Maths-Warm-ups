@@ -1,0 +1,148 @@
+
+.presentation-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 24px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 1.6;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+h1 {
+  font-size: 40px;
+  color: #4B0082;
+}
+
+h2 {
+  font-size: 34px;
+  color: #4B0082;
+}
+
+h3 {
+  font-size: 30px;  /* New addition */
+}
+
+p {
+  font-size: 22px;  /* Explicitly set paragraph font size */
+  margin-bottom: 16px;
+}
+
+ul, ol {
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+svg, img {
+  width: 100%;
+  max-width: 400px;  /* Adjust as needed */
+  height: auto;
+}
+
+.formula {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.slide-frame {
+  border: 5px solid #4B0082;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.slide-title {
+  color: #4B0082;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slide-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.navigation {
+  background-color: #4B0082;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-button {
+  font-size: 20px;
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button:hover {
+  background-color: #2563eb;
+}
+
+.slide-number {
+  font-size: 18px;
+  font-weight: semibold;
+}
+
+.shape-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape-info {
+  margin-left: 20px;
+}
+
+.exercise {
+  text-align: center;
+}
+
+.appendix {
+  text-align: left;
+}
+
+.appendix h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}@charset "UTF-8";
+/* CSS Document */
+
